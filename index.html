@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Storia della Grecia</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js" rel="script"></script>
+    <link rel="stylesheet" href="Style/Style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="left">
+            <div id="timeline"><button id="ResetTimelineButton">Reset timeline</button></div>
+            <div id="characters"></div>
+        </div>
+        <div id="right">
+            <div id="events">
+                <ul>
+                    <li>
+                        A Creta si sviluppa la prima civiltà d’Europa, quella “cretese”, o “minoica”, dal nome del re
+                        <span onclick="SelectGreekMythologyNode(this.innerText)">Minosse</span>. Primo segno vero di
+                        civiltà in europa.
+                    </li>
+                    <li>
+                        <span onclick="SelectGreekMythologyNode(this.innerText)">Minosse</span> unificò creta e fece
+                        capitale Cnosso.
+                    </li>
+                    <li>
+                        Minosse periodo di massia fioritua a creta.
+                    </li>
+                    <li>
+                        Declino: società + terremoto + invasione achei soprattutto.
+                    </li>
+                    <li>
+                        Contemporaneamete a quella cretese, si sviluppa sulla terraferma la civiltà “micenea”, dal nome
+                        di “Micene”.
+                    </li>
+                    <li>
+                        Gli achei per 3, 4 secoli dominarono completamente il paese, tanto che essi furono sinonimi di
+                        "greci". Gli achei non erano i micenei, c'erano differenze sostanziali. Non erano un popolazione
+                        infatti pelasgica come le altre della grecia, ma una tribù celtica dell'europa centrale, che
+                        calò sul peloponneso non dalla ma attraverso la tessaglia, sottomise gl'indigeni e fra il 14° e
+                        il 13° a.C si fuse con essi creando una nuova civiltà, quella greca, puer restando classe
+                        dirigente. In realtà, il termine "micenei" e "achei" vengono spesso utilizzati come sinonimi
+                        quando si parla degli abitanti della Grecia continentale nell’età del bronzo, anche se con
+                        alcune sfumature diverse. I micenei sono così chiamati dagli archeologi per via della città di
+                        Micene, una delle più importanti di questa civiltà. Il termine "achei" invece è un’espressione
+                        letteraria che deriva soprattutto dai poemi omerici, dove gli achei sono presentati come uno dei
+                        principali gruppi greci che assediano Troia. In sostanza, per la maggior parte degli studiosi
+                        moderni, "micenei" si riferisce alla cultura archeologica e materiale di quel periodo, mentre
+                        "achei" riguarda la tradizione epica e linguistica; ma si tratta comunque della stessa
+                        popolazione greca del secondo millennio a.C. Quindi, sebbene ci siano distinzioni di contesto,
+                        nella pratica parliamo della stessa gente con due nomi diversi.
+                    </li>
+                    <li>
+                        Gli achei distruggono troia. Primo episodio di una guerra perpetuata nei millenni: oriente vs
+                        occidente.
+                    </li>
+                    <li>
+                        Omero non si sa se sia realmente esistito, scriveva per piacere ai signori che lo pagavano.
+                    </li>
+                    <li>
+                        I dori sconfiggono gli achei verso il 1100 a.C., vengono dal centro europa, più rozzi dei
+                        micenei ma possedevano l'arte del ferro, che i micenei importavano. Si impossessano della
+                        leggenda degli eracleidi per giustificare la loro
+                        conquista della grecia. A differenza degli achei non si limitarono alla terraferma, ma
+                        colonizzarono anche le isole e la costa dell'asia minore, distruggendo a creta la civiltà
+                        minoica, i suoi rimasugli. Dopo aver fatto da padroni per un po, compromessi con popolazione
+                        locale, si integrarono un po e formarono una nuova identità culturale, ma Razzisti, non si
+                        mescolavano
+                        con gli indigeni micenei a livello di sangue. Non gli interessava la cultura, ma il potere, no
+                        mecenatismo. Con linvasione dorica inizia il medievo ellenico, comoreso il caso che ne seguì.
+                    </li>
+                    <li>
+                        Al razzismo dorico si oppone il cosmopolitismo ionico, che domina le coste dell'asia minore e le
+                        isole, di achei e pelasgi. Sparta era la roccaforte dorica per eccellenza. Questo spiega perché
+                        non si formo
+                        mai unità politica della grecia, divisa tra dorici e ionici, coi primi che consideravano i
+                        secondi inferiori. Atene era la roccaforte ionica, e a loro volta gli atenioeni consideravano i
+                        dorici barbari.
+                    </li>
+                    <li>
+                        Per diferndersi dallinvasione dei dori, in tutta la grecia i contadini si rifugiarono sulle
+                        colline, formando i cosiddetti "acropoli" (città alte). Queste però non si fusero mai insieme,
+                        rimasero
+                        sempre staccate, divise. È in questo periodo che nasce e si confermo la polis, la città-stato e
+                        il suo
+                        spirito dei cittadini, del tutto disinteressati a cosa succedeva fuori dalle mura della loro
+                        città. Le acropoli iniziarono a svilupparsi nello stesso periodo in cui si formarono le prime
+                        polis, quindi a partire dall’VIII secolo a.C. Tuttavia, l’idea di costruire fortificazioni o
+                        santuari su alture esisteva già nell’età micenea, quando le popolazioni costruivano luoghi
+                        difensivi sopraelevati, anche se non avevano ancora il significato civile, religioso e simbolico
+                        che assunsero nell’epoca delle polis. Solo con le polis, infatti, le acropoli divennero il cuore
+                        religioso e, spesso, il punto di riferimento politico della città, come avvenne in modo
+                        esemplare ad Atene. Quindi si può dire che le acropoli, come le conosciamo nelle polis greche,
+                        nacquero e si svilupparono soprattutto tra l’VIII e il VI secolo a.C., anche se la pratica di
+                        abitare e usare alture come rifugi o santuari è più antica.
+                    </li>
+                    <li>
+                        Dentro le polis non dovevano starci tropper persone, anche i filosofi la pensavano così. Si
+                        facevano gli affari proprio
+                        dentro le polis (acropoli era la parte alla delle polis), non si aveva intreressi in contatti
+                        esterni. quando
+                        la polis autoritaria cresceva troppo, si formavano colonie all'esterno per scaricare la
+                        popolazione in eccesso. Fu così che i greci colonizzarono tutto il mediterraneo e il mar nero,
+                        fondando
+                        città come Marsiglia, Napoli, Siracusa, Bisanzio. Capiamo che le colonie quindi non sono state
+                        fondate per scopi di conquista o di espansione territoriale, ma per motivi demografici ed
+                        economici. Le colonie erano città indipendenti, non dipendevano dalla polis che le aveva
+                        fondate, ma
+                        mantenevano con essa rapporti di amicizia e di commercio se ne avevano interesse.
+                    </li>
+                    <li>
+                        Fine storia dei greci: 146 a.C., distruzione di corinto e Definitiva sottomissione a roma.
+                    </li>
+                    <li>
+                        Hai compreso bene la sequenza generale degli inizi della storia greca, anche se alcuni dettagli
+                        possono essere precisati. La civiltà minoica nasce e si sviluppa nell'isola di Creta tra il 2000
+                        e il 1450 a.C. Circa a metà del secondo millennio a.C., la civiltà micenea si sviluppa nel
+                        Peloponneso e su altre parti della Grecia, anche grazie ai commerci e ai contatti con i minoici.
+                        Dopo il crollo della civiltà minoica, intorno al 1450 a.C., i micenei diventano la potenza
+                        dominante del mondo egeo, ma subiscono anch’essi un collasso intorno al 1200 a.C., in parte
+                        associato all’arrivo dei Dori e al cosiddetto “periodo dei Popoli del Mare.” Su quest’ultima
+                        fase, ciò che hai scritto sul rifugio sui colli e sulla nascita delle acropoli è una delle
+                        ipotesi, ma va presa con cautela: la realtà in questa fase resta spesso oscura per la scarsità
+                        di fonti certe.
+
+                        Dopo il crollo miceneo, la Grecia entra in una lunga fase di oscurità chiamata “Medioevo
+                        ellenico” o Età oscura, dal 1200 circa fino circa all’800 a.C. Da qui inizia l’Età arcaica,
+                        segnata dalla ripresa delle città-stato (poleis), dall’emergere di nuove istituzioni politiche e
+                        dalla colonizzazione del Mediterraneo, soprattutto fra l’VIII e il VI secolo a.C. In questi
+                        secoli si formano Atene, Sparta, Corinto e altre grandi poleis, nascono le prime forme di
+                        democrazia, e la poesia orale epica di Omero viene messa per iscritto.
+
+                        Arrivando all’Età classica, dal 500 al 323 a.C. circa, si collocano la nascita della democrazia
+                        ateniese, le guerre persiane con la celebre battaglia di Maratona, la battaglia delle Termopili
+                        e di Salamina, e poi la guerra del Peloponneso tra Atene e Sparta che termina con la vittoria di
+                        Sparta nel 404 a.C. Dopo una fase di crisi e instabilità, nel IV secolo a.C. si afferma la
+                        Macedonia con Filippo II e poi con suo figlio Alessandro Magno, che dà vita a un immenso impero
+                        e diffonde la cultura greca ben oltre i confini tradizionali. La morte di Alessandro nel 323
+                        a.C. segna la fine dell’età classica e l’inizio dell’età ellenistica, caratterizzata da regni
+                        successori e forti scambi culturali.
+
+                        La storia dell’antica Grecia, solitamente, si considera chiusa con la conquista romana della
+                        Grecia, avvenuta nel 146 a.C. dopo la battaglia di Corinto. Da quel momento la Grecia entra
+                        nell’orbita dell’Impero romano, anche se la sua cultura continua a influenzare profondamente il
+                        mondo romano e successivamente quello occidentale.
+                    </li>
+                    <li>
+                        <span onclick="Test(1)">Arthur Evans</span> scopre la civiltà cretese.
+                    </li>
+                    <li>
+                        <span onclick="Test(2)">Heinrich Schliemann</span> scopre Troia.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Timeline.js"></script>
+    <script type="text/javascript" src="Characters.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
+</body>
+
+</html>

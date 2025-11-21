@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body,
+#container {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+}
+
+#left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    flex: 1;
+}
+
+#timeline {
+    flex: 1;
+    height: 50%;
+}
+
+#characters {
+    flex: 1;
+    height: 50%;
+}
+
+#events {
+    height: 100%;
+    overflow: scroll;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li:not(:first-child) {
+        margin-top: 1rem;
+    }
+
+    li span {
+        cursor: pointer;
+        color: red;
+        font-weight: bold;
+    }
+}
+
+#timeline {
+    background: #F6F0F0;
+}
+
+#characters {
+    background: #F2E2B1;
+}
+
+.vis-item.vis-background.gray {
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.vis-item.vis-background.lightblue {
+    background-color: rgba(86, 180, 233, 0.2);
+}
+
+.vis-item.vis-background.cyan {
+    background-color: rgba(29, 210, 210, 0.18);
+}
+
+.vis-item.vis-background.darkgray {
+    background-color: rgba(64, 64, 64, 0.16);
+}
+
+.vis-item.vis-background.yellow {
+    background-color: rgba(255, 215, 0, 0.18);
+}
+
+.vis-item.vis-background.purple {
+    background-color: rgba(170, 110, 220, 0.15);
+}
+
+.vis-item.vis-background.pink {
+    background-color: rgba(255, 99, 187, 0.15);
+}
+
+.vis-item.vis-background.brown {
+    background-color: rgba(134, 70, 30, 0.13);
+}
+
+.vis-item.vis-background.indigo {
+    background-color: rgba(75, 0, 130, 0.18);
+}
+
+.vis-item.vis-background.orange {
+    background-color: rgba(255, 165, 0, 0.18);
+}
+
+.vis-item.vis-background.lime {
+    background-color: rgba(173, 255, 47, 0.17);
+}
